@@ -72,6 +72,15 @@ bool testInitBingoCard()
     bingoBall** theSpaceP = malloc(20 * 20 * sizeof(bingoBall));
     ok = initBingoCard(theSpaceP,20);
     displayBingoCard(theSpaceP, 20); //Visual test. If the console prints out a randomized bingo card, then the test is a success.
+
+    if (ok)
+    {
+        puts("Test InitBingoCard passed\n");
+    }
+    else
+    {
+        puts("Test InitBingoCard failed\n");
+    }
     return ok;
 }
 
@@ -95,22 +104,47 @@ bool testPrintList()
         savePayload(markerList, testMarker);
 
     }
+    if (isEmpty(markerList))
+    {
+        ok = false;
+    }
     printf("\nTesting Ability to print the contents of a list\n");
     printList(markerList);
+    if (ok)
+    {
+        puts("Test PrintList passed\n");
+    }
+    else
+    {
+        puts("Test PrintList failed\n");
+    }
     return ok;
 }
 
 //A double test again.
 bool testCallBall()
 {
-    bool ok = false;
+    bool ok = true;
     bingoBall** theSpaceP = malloc(20 * 20 * sizeof(bingoBall));
+    bingoBall* tempBallP;
     ok = initBingoCard(theSpaceP,20);
     displayBingoCard(theSpaceP, 20); //Visual test. If the console prints out a randomized bingo card, then the test can continue
     for (int i = 0; i<10; i++)
     {
-        callBingoBall(theSpaceP, 20); //this should call a bunch of bingo balls, and add matches to the list.
+        tempBallP = callBingoBall(theSpaceP, 20); //this should call a bunch of bingo balls, and add matches to the list.
+        if (tempBallP->letter > 90 || tempBallP->letter < 65 || tempBallP->number < 0 || tempBallP->number > 9)
+        {
+            ok = false;
+        }
     }
     //printHistoryList();
+    if (ok)
+    {
+        puts("Test CallBall passed\n");
+    }
+    else
+    {
+        puts("Test CallBall failed\n");
+    }
     return ok;
 }

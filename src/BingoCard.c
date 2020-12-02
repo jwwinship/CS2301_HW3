@@ -28,7 +28,10 @@ bool initBingoCard(bingoBall** corner, int howManyRows)
             tempSpaceP->number = rand()%10;
 
             *(corner+row*howManyRows + col) = tempSpaceP;
-            //cardlist[(row*20)+col] = *tempSpaceP;
+            if (tempSpaceP->letter > 90 || tempSpaceP->letter < 65 || tempSpaceP->number < 0 || tempSpaceP->number > 9)
+            {
+                ok = false;
+            }
 
         }
     }
