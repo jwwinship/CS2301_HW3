@@ -12,8 +12,6 @@
 bool production(int argc, char* argv[])
 {
 	bool answer = false;
-	argv[0];
-	argv[1];
 
 	if(argc <=1) //no interesting information
 	{

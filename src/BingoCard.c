@@ -25,10 +25,13 @@ bool initBingoCard(bingoBall** corner, int howManyRows)
             //Sets letter to random letter from A to Z
             tempSpaceP->letter = rand()%26 + 65;
             //Sets number from 0-9
-            tempSpaceP->number = rand()%10;
+            tempSpaceP->number = rand()%10; //Testing should pass
 
             *(corner+row*howManyRows + col) = tempSpaceP;
-            //cardlist[(row*20)+col] = *tempSpaceP;
+            if (tempSpaceP->letter > 90 || tempSpaceP->letter < 65 || tempSpaceP->number < 0 || tempSpaceP->number > 9)
+            {
+                ok = false;
+            }
 
         }
     }
@@ -88,7 +91,7 @@ bingoBall* callBingoBall(bingoBall** corner, int howManyRows)
 bingoBall* checkCardForMatch(bingoBall** corner, int howManyRows, bingoBall* ballToCheck)
 {
 
-    bingoBall* tempBallP;
+    bingoBall* tempBallP = ballToCheck;
     for(int row = 0; row< 20; row++)
     {
         for(int col = 0; col < 20; col++)
@@ -101,6 +104,10 @@ bingoBall* checkCardForMatch(bingoBall** corner, int howManyRows, bingoBall* bal
                 tempBallP->rowFound = row;
                 tempBallP->matchFound = true;
                 return tempBallP;
+            }
+            else
+            {
+                tempBallP = ballToCheck;
             }
         }
 
