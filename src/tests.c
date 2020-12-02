@@ -109,6 +109,6 @@ bool testCallBall()
     {
         callBingoBall(theSpaceP, 20); //this should call a bunch of bingo balls, and add matches to the list.
     }
-    printHistoryList();
+    //printHistoryList();
     return ok;
 }

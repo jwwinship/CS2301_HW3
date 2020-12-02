@@ -12,6 +12,8 @@
 bool production(int argc, char* argv[])
 {
 	bool answer = false;
+	argv[0];
+	argv[1];
 
 	if(argc <=1) //no interesting information
 	{
@@ -23,7 +25,6 @@ bool production(int argc, char* argv[])
 	{
 		printf("Found %d interesting arguments.\n", argc-1);
 		fflush(stdout);
-		char filename[FILENAMELENGTHALLOWANCE];
 		char* eptr=(char*) malloc(sizeof(char*));
 		long aL=-1L;
 
@@ -33,7 +34,16 @@ bool production(int argc, char* argv[])
 			switch(i)
 			{
 			case 1:
-
+			    aL =  strtol(argv[i], &eptr, 10);
+			    int ballsToCall = (int) aL;
+			    printf("Number of balls to call: %d\n", ballsToCall);
+                bingoBall** theSpaceP = malloc(20 * 20 * sizeof(bingoBall));
+                answer = initBingoCard(theSpaceP,20);
+                displayBingoCard(theSpaceP, 20); //Visual test. If the console prints out a randomized bingo card, then the test can continue
+                for (int j = 0; j<ballsToCall; j++)
+                {
+                    callBingoBall(theSpaceP, 20); //this should call a bunch of bingo balls, and add matches to the list.
+                }
 			    break;
 			default:
 				puts("Unexpected argument count."); fflush(stdout);

@@ -209,6 +209,7 @@ LLNode* removeFromList(LLNode* hP, Payload* pP)
 //TODO: finish this
 void printList(LLNode* lp)
 {
+    puts("Printing the current state of the bingo board....");
     if (!isEmpty(lp))
     {
         Marker* currentMarker = lp->payP;
@@ -246,7 +247,6 @@ void printList(LLNode* lp)
             }
 
         }
-        //printf("Marker of Index %d located at (%d,%d). \n", currentMarker->index, currentMarker->col, currentMarker->row);
 
 
     }
@@ -254,6 +254,7 @@ void printList(LLNode* lp)
     {
         printf("The list is empty!\n\n");
     }
+    puts("------------------------------------------");
 }
 
 

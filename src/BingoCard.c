@@ -58,13 +58,15 @@ bool displayBingoCard(bingoBall** corner, int howManyRows)
 bingoBall* callBingoBall(bingoBall** corner, int howManyRows)
 {
     //TODO: Find a way to incorporate row and column into the calls for a bingo ball, so we can tell where it is.
+
+    puts("\nCalling new Bingo Ball......");
     bingoBall* ballCalledP;
     ballCalledP = malloc(sizeof(bingoBall));
     //Sets letter to random letter from A to Z
     ballCalledP->letter = rand()%26 + 65;
     //Sets number from 0-9
     ballCalledP->number = rand()%10;
-
+    printf("%c%d!\n\n", ballCalledP->letter, ballCalledP->number);
     ballCalledP = checkCardForMatch(corner, howManyRows, ballCalledP); //See if the currently called ball is on the bingo card anywhere
 
     if(ballCalledP->matchFound)
@@ -78,7 +80,8 @@ bingoBall* callBingoBall(bingoBall** corner, int howManyRows)
 
         savePayload(markerList, ballMarkerP);
     }
-    //printList(markerList); //Used for test purposes. Uncomment in order to test functionality of method
+    printList(markerList); //Used for test purposes. Uncomment in order to test functionality of method
+
     return ballCalledP;
 }
 
