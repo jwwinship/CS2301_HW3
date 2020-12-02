@@ -65,6 +65,7 @@ bool testPrintHistory()
 	return ok;
 }
 
+//This will simultaneously test the initialization and display of the card, since they are pretty tied together.
 bool testInitBingoCard()
 {
     bool ok = false;
@@ -99,6 +100,7 @@ bool testPrintList()
     return ok;
 }
 
+//A double test again.
 bool testCallBall()
 {
     bool ok = false;
