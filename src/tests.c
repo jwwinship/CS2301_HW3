@@ -101,7 +101,7 @@ bool testPrintList()
         testMarker->col = rand()%20;
         testMarker->letter = testBingoBallP->letter;
         testMarker->number = testBingoBallP->number;
-        savePayload(markerList, testMarker);
+        savePayload(markerList, testMarker); //List should be populated, test should pass
 
     }
     if (isEmpty(markerList))
