@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter"
+CMAKE_SOURCE_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -115,17 +115,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CS2301_HW3
+# Target rules for targets named CS2301_HW4
 
 # Build rule for target.
-CS2301_HW3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CS2301_HW3
-.PHONY : CS2301_HW3
+CS2301_HW4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CS2301_HW4
+.PHONY : CS2301_HW4
 
 # fast build rule for target.
-CS2301_HW3\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\build
-.PHONY : CS2301_HW3\fast
+CS2301_HW4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\build
+.PHONY : CS2301_HW4\fast
 
 src\BingoCard.obj: src\BingoCard.c.obj
 
@@ -133,7 +133,7 @@ src\BingoCard.obj: src\BingoCard.c.obj
 
 # target to build an object file
 src\BingoCard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\BingoCard.c.obj
 .PHONY : src\BingoCard.c.obj
 
 src\BingoCard.i: src\BingoCard.c.i
@@ -142,7 +142,7 @@ src\BingoCard.i: src\BingoCard.c.i
 
 # target to preprocess a source file
 src\BingoCard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\BingoCard.c.i
 .PHONY : src\BingoCard.c.i
 
 src\BingoCard.s: src\BingoCard.c.s
@@ -151,35 +151,35 @@ src\BingoCard.s: src\BingoCard.c.s
 
 # target to generate assembly for a file
 src\BingoCard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\BingoCard.c.s
 .PHONY : src\BingoCard.c.s
 
-src\CS2301_HW3.obj: src\CS2301_HW3.c.obj
+src\CS2301_HW4.obj: src\CS2301_HW4.c.obj
 
-.PHONY : src\CS2301_HW3.obj
+.PHONY : src\CS2301_HW4.obj
 
 # target to build an object file
-src\CS2301_HW3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj
-.PHONY : src\CS2301_HW3.c.obj
+src\CS2301_HW4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\CS2301_HW4.c.obj
+.PHONY : src\CS2301_HW4.c.obj
 
-src\CS2301_HW3.i: src\CS2301_HW3.c.i
+src\CS2301_HW4.i: src\CS2301_HW4.c.i
 
-.PHONY : src\CS2301_HW3.i
+.PHONY : src\CS2301_HW4.i
 
 # target to preprocess a source file
-src\CS2301_HW3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.i
-.PHONY : src\CS2301_HW3.c.i
+src\CS2301_HW4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\CS2301_HW4.c.i
+.PHONY : src\CS2301_HW4.c.i
 
-src\CS2301_HW3.s: src\CS2301_HW3.c.s
+src\CS2301_HW4.s: src\CS2301_HW4.c.s
 
-.PHONY : src\CS2301_HW3.s
+.PHONY : src\CS2301_HW4.s
 
 # target to generate assembly for a file
-src\CS2301_HW3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.s
-.PHONY : src\CS2301_HW3.c.s
+src\CS2301_HW4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\CS2301_HW4.c.s
+.PHONY : src\CS2301_HW4.c.s
 
 src\LinkedList.obj: src\LinkedList.c.obj
 
@@ -187,7 +187,7 @@ src\LinkedList.obj: src\LinkedList.c.obj
 
 # target to build an object file
 src\LinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\LinkedList.c.obj
 .PHONY : src\LinkedList.c.obj
 
 src\LinkedList.i: src\LinkedList.c.i
@@ -196,7 +196,7 @@ src\LinkedList.i: src\LinkedList.c.i
 
 # target to preprocess a source file
 src\LinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\LinkedList.c.i
 .PHONY : src\LinkedList.c.i
 
 src\LinkedList.s: src\LinkedList.c.s
@@ -205,7 +205,7 @@ src\LinkedList.s: src\LinkedList.c.s
 
 # target to generate assembly for a file
 src\LinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\LinkedList.c.s
 .PHONY : src\LinkedList.c.s
 
 src\marker.obj: src\marker.c.obj
@@ -214,7 +214,7 @@ src\marker.obj: src\marker.c.obj
 
 # target to build an object file
 src\marker.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\marker.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\marker.c.obj
 .PHONY : src\marker.c.obj
 
 src\marker.i: src\marker.c.i
@@ -223,7 +223,7 @@ src\marker.i: src\marker.c.i
 
 # target to preprocess a source file
 src\marker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\marker.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\marker.c.i
 .PHONY : src\marker.c.i
 
 src\marker.s: src\marker.c.s
@@ -232,7 +232,7 @@ src\marker.s: src\marker.c.s
 
 # target to generate assembly for a file
 src\marker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\marker.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\marker.c.s
 .PHONY : src\marker.c.s
 
 src\production.obj: src\production.c.obj
@@ -241,7 +241,7 @@ src\production.obj: src\production.c.obj
 
 # target to build an object file
 src\production.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\production.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\production.c.obj
 .PHONY : src\production.c.obj
 
 src\production.i: src\production.c.i
@@ -250,7 +250,7 @@ src\production.i: src\production.c.i
 
 # target to preprocess a source file
 src\production.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\production.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\production.c.i
 .PHONY : src\production.c.i
 
 src\production.s: src\production.c.s
@@ -259,7 +259,7 @@ src\production.s: src\production.c.s
 
 # target to generate assembly for a file
 src\production.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\production.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\production.c.s
 .PHONY : src\production.c.s
 
 src\tests.obj: src\tests.c.obj
@@ -268,7 +268,7 @@ src\tests.obj: src\tests.c.obj
 
 # target to build an object file
 src\tests.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\tests.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\tests.c.obj
 .PHONY : src\tests.c.obj
 
 src\tests.i: src\tests.c.i
@@ -277,7 +277,7 @@ src\tests.i: src\tests.c.i
 
 # target to preprocess a source file
 src\tests.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\tests.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\tests.c.i
 .PHONY : src\tests.c.i
 
 src\tests.s: src\tests.c.s
@@ -286,7 +286,7 @@ src\tests.s: src\tests.c.s
 
 # target to generate assembly for a file
 src\tests.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW3.dir\src\tests.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS2301_HW4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS2301_HW4.dir\src\tests.c.s
 .PHONY : src\tests.c.s
 
 # Help Target
@@ -297,13 +297,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CS2301_HW3
+	@echo ... CS2301_HW4
 	@echo ... src/BingoCard.obj
 	@echo ... src/BingoCard.i
 	@echo ... src/BingoCard.s
-	@echo ... src/CS2301_HW3.obj
-	@echo ... src/CS2301_HW3.i
-	@echo ... src/CS2301_HW3.s
+	@echo ... src/CS2301_HW4.obj
+	@echo ... src/CS2301_HW4.i
+	@echo ... src/CS2301_HW4.s
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s

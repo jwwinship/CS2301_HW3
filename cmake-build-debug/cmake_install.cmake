@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/John/Desktop/ECE Resources/CS2301/Code and Labs/2020HW3starter
+# Install script for directory: C:/Users/John/Desktop/ECE Resources/CS2301/Code and Labs/CS2301_HW4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2020HW3starter")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CS2301_HW3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/John/Desktop/ECE Resources/CS2301/Code and Labs/2020HW3starter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/John/Desktop/ECE Resources/CS2301/Code and Labs/CS2301_HW4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

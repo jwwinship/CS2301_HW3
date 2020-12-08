@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter"
+CMAKE_SOURCE_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\CS2301_HW3.dir\depend.make
@@ -61,123 +61,123 @@ include CMakeFiles\CS2301_HW3.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CS2301_HW3.dir\flags.make
 
-CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
-CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj: ..\src\CS2301_HW3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CS2301_HW3.dir/src/CS2301_HW3.c.obj"
+CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
+CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.obj: ..\src\CS2301_HW4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CS2301_HW3.dir/src/CS2301_HW4.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\CS2301_HW3.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\CS2301_HW4.c"
 <<
 
-CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/CS2301_HW3.c.i"
-	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\CS2301_HW3.c"
+CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/CS2301_HW4.c.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\CS2301_HW4.c"
 <<
 
-CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/CS2301_HW3.c.s"
+CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/CS2301_HW4.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\CS2301_HW3.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\CS2301_HW4.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
 CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj: ..\src\LinkedList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CS2301_HW3.dir/src/LinkedList.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CS2301_HW3.dir/src/LinkedList.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\LinkedList.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\LinkedList.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/LinkedList.c.i"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\LinkedList.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\LinkedList.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/LinkedList.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\LinkedList.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\LinkedList.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\LinkedList.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\LinkedList.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\production.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
 CMakeFiles\CS2301_HW3.dir\src\production.c.obj: ..\src\production.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CS2301_HW3.dir/src/production.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CS2301_HW3.dir/src/production.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\production.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\production.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\production.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\production.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\production.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/production.c.i"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\production.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\production.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\production.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\production.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/production.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\production.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\production.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\production.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\production.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\tests.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
 CMakeFiles\CS2301_HW3.dir\src\tests.c.obj: ..\src\tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CS2301_HW3.dir/src/tests.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CS2301_HW3.dir/src/tests.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\tests.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\tests.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\tests.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\tests.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\tests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/tests.c.i"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\tests.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\tests.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\tests.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\tests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/tests.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\tests.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\tests.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\tests.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\tests.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
 CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj: ..\src\BingoCard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CS2301_HW3.dir/src/BingoCard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CS2301_HW3.dir/src/BingoCard.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\BingoCard.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\BingoCard.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/BingoCard.c.i"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\BingoCard.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\BingoCard.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/BingoCard.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\BingoCard.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\BingoCard.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\BingoCard.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\BingoCard.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\marker.c.obj: CMakeFiles\CS2301_HW3.dir\flags.make
 CMakeFiles\CS2301_HW3.dir\src\marker.c.obj: ..\src\marker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CS2301_HW3.dir/src/marker.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CS2301_HW3.dir/src/marker.c.obj"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\marker.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\marker.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CS2301_HW3.dir\src\marker.c.obj /FdCMakeFiles\CS2301_HW3.dir\ /FS -c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\marker.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\marker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CS2301_HW3.dir/src/marker.c.i"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\CS2301_HW3.dir\src\marker.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\marker.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\marker.c"
 <<
 
 CMakeFiles\CS2301_HW3.dir\src\marker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CS2301_HW3.dir/src/marker.c.s"
 	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\marker.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\src\marker.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CS2301_HW3.dir\src\marker.c.s /c "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\src\marker.c"
 <<
 
 # Object files for target CS2301_HW3
 CS2301_HW3_OBJECTS = \
-"CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj" \
+"CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.obj" \
 "CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj" \
 "CMakeFiles\CS2301_HW3.dir\src\production.c.obj" \
 "CMakeFiles\CS2301_HW3.dir\src\tests.c.obj" \
@@ -187,7 +187,7 @@ CS2301_HW3_OBJECTS = \
 # External object files for target CS2301_HW3
 CS2301_HW3_EXTERNAL_OBJECTS =
 
-CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\CS2301_HW3.c.obj
+CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\CS2301_HW4.c.obj
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\LinkedList.c.obj
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\production.c.obj
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\tests.c.obj
@@ -195,9 +195,9 @@ CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\BingoCard.c.obj
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\src\marker.c.obj
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\build.make
 CS2301_HW3.exe: CMakeFiles\CS2301_HW3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable CS2301_HW3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable CS2301_HW3.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CS2301_HW3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CS2301_HW3.dir\objects1.rsp @<<
- /out:CS2301_HW3.exe /implib:CS2301_HW3.lib /pdb:"C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CS2301_HW3.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:CS2301_HW3.exe /implib:CS2301_HW3.lib /pdb:"C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CS2301_HW3.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -210,6 +210,6 @@ CMakeFiles\CS2301_HW3.dir\clean:
 .PHONY : CMakeFiles\CS2301_HW3.dir\clean
 
 CMakeFiles\CS2301_HW3.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\2020HW3starter\cmake-build-debug\CMakeFiles\CS2301_HW3.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug" "C:\Users\John\Desktop\ECE Resources\CS2301\Code and Labs\CS2301_HW4\cmake-build-debug\CMakeFiles\CS2301_HW3.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\CS2301_HW3.dir\depend
 

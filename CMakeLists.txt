@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.17)
-project(CS2301_HW3 C)
+project(CS2301_HW4 C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
-add_executable(CS2301_HW3
-        src/CS2301_HW3.c
+add_executable(CS2301_HW4
+        src/CS2301_HW4.c
         src/LinkedList.c
         src/LinkedList.h
         src/production.c
